@@ -1,10 +1,3 @@
-*CRUD*
-C - Create
-R - Read
-U - Update
-D - Delete
-
-
 -- ================================
 -- 1. Reset the database
 -- This ensures we start fresh each time
@@ -79,4 +72,5 @@ INSERT INTO users (name, email) VALUES
 ('Bob Brown', 'bob@example.com');
 
 -- Verify new inserts
+
 SELECT * FROM users;
